@@ -24,9 +24,8 @@ console.log(preferColor);
 
 /* 4)Infine scrivi sulla pagina il risultato usando questo formato: nomecognomecolorepreferito23 */
 const result = name + surname + preferColor + "23"
-document.write("result " + result )
-/* innerHTML riga 29 al posto di "document.write"  */
-/* se aggiungo innerHTML al posto " document.write mi si crea un errore all'interno dell'ispect" */
+element.innerHTML ("result " + result )
 console.log(result);
 /******************************************************************
  ******************************************************************/
+element.innerHTML 
