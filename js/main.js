@@ -23,7 +23,8 @@ const preferColor = prompt("what is your favorite color");
 console.log(preferColor);
 
 /* 4)Infine scrivi sulla pagina il risultato usando questo formato: nomecognomecolorepreferito23 */
-const result = name + " "+ surname + " " + preferColor +" " + "23";
+/* const result = name + " "+ surname + " " + preferColor +" " + "23"; */
+const result = `${name}${surname}${preferColor}23`
 document.getElementById('password').innerHTML = result;
 console.log(result);
 /******************************************************************
